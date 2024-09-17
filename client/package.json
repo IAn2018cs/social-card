@@ -1,0 +1,48 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "A Vue.js project",
+    "main": "src/main.js",
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "vue": "^2.6.12"
+    },
+    "devDependencies": {
+      "@vue/cli-service": "^4.5.0",
+      "vue-template-compiler": "^2.6.12"
+    },
+    "babel": {
+      "presets": [
+        "@vue/cli-plugin-babel/preset"
+      ]
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "rules": {}
+    },
+    "postcss": {
+      "plugins": {
+        "autoprefixer": {}
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
